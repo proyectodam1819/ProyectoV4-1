@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/searchAuthors"
+        android:icon="@drawable/ic_people"
+        android:title="Authors"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sortTitle"
+        android:title="@string/sortTitle"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortIdAuthor"
+        android:title="@string/sortAuthor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/createBookMenu"
+        android:title="@string/createBook"
+        app:showAsAction="never" />
+</menu>

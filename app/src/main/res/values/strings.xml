@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">My books</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mostrar_libro">MostrarLibro</string>
+
+    //login and create user
+    <string name="login">Log in</string>
+    <string name="mail">Mail</string>
+    <string name="password">Password</string>
+    <string name="repitePass">Repite password</string>
+    <string name="noAccount">You do not have an account? Sign up</string>
+    <string name="forgotPassword">Forgot my password</string>
+    <string name="not_empty">The field can\'t be empty</string>
+    <string name="next">Next</string>
+    <string name="not_equals">The passwords aren\'t equals</string>
+
+    //login
+    //No existe el email
+    <string name="error_login_email">com.google.firebase.auth.FirebaseAuthInvalidUserException: There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="msg_login_email">wrong email account</string>
+    //Clave incorrecta
+    <string name="error_login_clave" translatable="false">com.google.firebase.auth.FirebaseAuthInvalidCredentialsException: The password is invalid or the user does not have a password.</string>
+    <string name="msg_login_clave">wrong password</string>
+    //No formato email
+    <string name="error_login_no_email" translatable="false">com.google.firebase.auth.FirebaseAuthInvalidCredentialsException: The email address is badly formatted.</string>
+    <string name="msg_login_no_email">wrong email format</string>
+    //errores editText
+    <string name="msg_no_text_in_email">write an email</string>
+    <string name="msg_no_text_in_contraseña">write a password</string>
+    <string name="msg_loading">Loading...</string>
+    <string name="checkbox_remember">Remember the session</string>
+
+    //Index
+    <string name="no_books">No books found, try to create them</string>
+
+    //create book
+    <string name="name">Name:</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="state">State</string>
+    <string name="dateStart">Date Start</string>
+    <string name="dateFinish">Date Finish</string>
+    <string name="summary">Summary</string>
+    <string name="create">Create</string>
+    <string name="Started">Started</string>
+    <string name="No_started">No started</string>
+    <string name="Ended">Ended</string>
+    <string name="cero">0</string>
+    <string name="barra">/</string>
+    <string name="favorite">Favorite</string>
+    <string name="rating">Rating</string>
+    <string name="not_author">You must select an author</string>
+    <string name="fechFinishLess">The finish date is smaller than the start date</string>
+    <string name="guion">-</string>
+
+    <!-- Logup -->
+    <string name="error_email_repeat" translatable="false">com.google.firebase.auth.FirebaseAuthUserCollisionException: The email address is already in use by another account.</string>
+    <string name="msg_email_repeat">The email address is already in use by another account.</string>
+
+
+    <!-- DIALOG AUTHOR -->
+    <string name="title_author">Create an author</string>
+    <string name="positive">Create</string>
+    <string name="negative">Cancel</string>
+
+
+    <!-- ARREGLAR -->
+    <string name="author2">Author:</string>
+    <string name="dateStart2">Date Start:</string>
+    <string name="dateFinish2">Date Finish:</string>
+    <string name="state2">State:</string>
+
+    <!-- Navegation Drawer -->
+    <string name="helpers">Helpers</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="logout">Log out</string>
+    <string name="changeTheme">Change Theme</string>
+    <string name="authorList">Author List</string>
+    <string name="createBook">Create Book</string>
+    <string name="home">Home</string>
+
+    <!-- DrawerLayout SHOW BOOK -->
+    <string name="editBook">Edit</string>
+    <string name="prueba">Title</string>
+    <string name="searchBook">Search Book</string>
+    <string name="shareBook">Share</string>
+
+    <!-- ORDENACION -->
+    <string name="sortAuthor">Sort by author</string>
+    <string name="sortTitle">Sort by title</string>
+    <string name="delete_book">Delete</string>
+    <string name="details">Details</string>
+    <string name="search">Search</string>
+
+    <!-- HELP -->
+    <string name="HelpTitle1">How to use your app</string>
+    <string name="HelpTitle2">How not to use your app</string>
+    <string name="HelpTitle3">How to create a book</string>
+    <string name="HelpSubTitle1">With your hands and looking at what you do</string>
+    <string name="HelpSubTitle2">With the foots</string>
+    <string name="HelpSubTitle3">Filling the fields and selecting the image</string>
+
+
+</resources>
