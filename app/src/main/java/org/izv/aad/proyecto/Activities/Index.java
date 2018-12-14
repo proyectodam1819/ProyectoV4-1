@@ -589,7 +589,7 @@ public class Index extends AppCompatActivity implements NavigationView.OnNavigat
 
     private void showAllBooks(){
         books.clear();
-        books = manager.getAllBooks();
+        books.addAll(manager.getAllBooks());
         adapterIndex.notifyDataSetChanged();
     }
 }

@@ -79,6 +79,12 @@ public class ShowBook extends AppCompatActivity{
             return true;
         }
 
+        if(id == R.id.deleteBook){
+            manager.deleteLibro(book);
+            FirebaseCustom.removeBook(book);
+            finish();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -95,6 +101,7 @@ public class ShowBook extends AppCompatActivity{
         show_rating = findViewById(R.id.show_rating);
         show_logo = findViewById(R.id.show_logo);
         show_favStar = findViewById(R.id.show_favStar);
+        manager = new Manager(this);
         notEditableRatingBar();
         setValues();
         initFloatingButton();
@@ -106,7 +113,7 @@ public class ShowBook extends AppCompatActivity{
     }
 
     private void getAuthor(){
-        Manager manager = new Manager(this);
+
         author = manager.getAuthor(book.getIdAuthor());
     }
 
