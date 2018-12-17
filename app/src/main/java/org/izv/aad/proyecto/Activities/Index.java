@@ -561,7 +561,13 @@ public class Index extends AppCompatActivity implements NavigationView.OnNavigat
         booksArray.addAll(books);
 
         savedInstanceState.putParcelableArrayList("books", booksArray);
-        adapterIndex.notifyItemRangeRemoved(0, books.size());
+
+        if(books.size()>0){
+            initRecycler();
+            adapterIndex.notifyItemRangeRemoved(0, books.size());
+        }
+
+
 
         super.onSaveInstanceState(savedInstanceState);
     }
